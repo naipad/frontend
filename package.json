@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --mode development",
+    "build": " vite build --mode production",
+    "build:dev": " vite build --mode development",
+    "preview": "vite preview --mode development"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "chart.js": "4.5.0",
+    "postcss-discard-comments": "^7.0.4",
+    "sass": "1.89.2",
+    "tailwindcss": "4.1.11",
+    "terser": "5.43.1",
+    "vite": "7.0.5",
+    "vite-plugin-javascript-obfuscator": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
